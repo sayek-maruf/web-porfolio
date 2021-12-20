@@ -1,0 +1,76 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    font-size: 14pt;
+}
+h1{
+  font-size: 50px;
+}
+img{
+  width: 100%;
+}
+.half-width{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.name{
+  color: orange;
+}
+.hire{
+  text-decoration: none;
+  background-image: linear-gradient(45deg,lightsalmon, tomato);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.top{
+  background-image: url(https://pbs.twimg.com/media/FE16OD8VUAQoHEy?format=png&name=small);
+  background-repeat: no-repeat;
+}
+section{
+  height: 580px;
+}
+h2{
+  font-size: 40px;
+}
+p{
+  color: dimgray;
+}
+.middle{
+  background-image: url(https://pbs.twimg.com/media/FE167ePUcAAkNs9?format=png&name=360x360);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.shadow{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 67%;
+  background-color: white;
+}
+.footer{
+  background-image: url(https://pbs.twimg.com/media/FG9dlrzVQAIF4RJ?format=png&name=240x240);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.full{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg,lightsalmon,tomato);
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, cyan, blue);
+    border-image-slice: 1;
+}
+.margin{
+  padding-top: 7%
+}
+.bottom{
+  padding-top:6%;
+}
